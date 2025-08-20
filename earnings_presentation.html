@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Q3 2025 Earnings Report</title>
+    
+    <!-- RevealJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css" />
+    
+    <!-- Code highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css" />
+    
+    <!-- MathJax for equations -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+      :root {
+        --r-heading-color: #1a365d;
+        --r-main-color: #2d3748;
+        --r-link-color: #3182ce;
+      }
+      
+      .reveal .slides section {
+        text-align: left;
+      }
+      
+      .reveal .slides section.center {
+        text-align: center;
+      }
+      
+      .reveal h1, .reveal h2, .reveal h3 {
+        color: var(--r-heading-color);
+        font-weight: bold;
+      }
+      
+      .financial-highlight {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+      
+      .metric-card {
+        background: #f7fafc;
+        border: 2px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      
+      .metric-value {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #2b6cb0;
+      }
+      
+      .positive { color: #38a169; }
+      .negative { color: #e53e3e; }
+      
+      .chart-container {
+        position: relative;
+        height: 400px;
+        margin: 20px 0;
+      }
+      
+      .email-footer {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 0.8em;
+        color: #718096;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        
+        <!-- Title Slide -->
+        <section class="center" data-background-gradient="linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+          <h1 style="color: white;">Q3 2025 Earnings Report</h1>
+          <h3 style="color: #e2e8f0;">Financial Performance & Strategic Outlook</h3>
+          <p style="color: #cbd5e0; margin-top: 50px;">
+            Prepared by: Financial Analytics Team<br>
+            Date: August 20, 2025
+          </p>
+          <div class="email-footer" style="color: #cbd5e0;">
+            Contact: 21f3001705@ds.study.iitm.ac.in
+          </div>
+          <aside class="notes">
+            Welcome to our Q3 2025 earnings presentation. Today we'll cover our financial performance, 
+            key metrics, and strategic outlook for the coming quarter. The presentation includes 
+            interactive charts and detailed analysis of our growth trajectory.
+          </aside>
+        </section>
+
+        <!-- Executive Summary (Markdown) -->
+        <section data-markdown>
+          <textarea data-template>
+            ## Executive Summary
+            
+            Our Q3 2025 performance demonstrates **strong fundamentals** across all key metrics:
+            
+            - Revenue growth of **12.3%** YoY
+            - Operating margin expansion to **18.5%**
+            - Digital transformation initiatives ahead of schedule
+            - Customer acquisition up **25%** from previous quarter
+            
+            ---
+            
+            ### Key Achievements This Quarter
+            
+            * Successfully launched new mobile banking platform
+            * Reduced operational costs by **$2.1M**
+            * Expanded into 3 new geographic markets
+            * Enhanced risk management frameworks
+            
+            **Strategic Focus**: Continuing digital-first approach while maintaining operational excellence
+          </textarea>
+          <aside class="notes">
+            The executive summary shows our strongest performance in 18 months. Pay particular attention 
+            to the digital transformation results, as this has been our primary strategic initiative.
+            Revenue growth exceeded analyst expectations by 2.1%.
+          </aside>
+        </section>
+
+        <!-- Financial Metrics with Fragments -->
+        <section>
+          <h2>Key Financial Metrics</h2>
+          
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+            <div class="metric-card fragment fade-up" data-fragment-index="1">
+              <div class="metric-value positive">$127.5M</div>
+              <p><strong>Revenue</strong><br>+12.3% YoY</p>
+            </div>
+            
+            <div class="metric-card fragment fade-up" data-fragment-index="2">
+              <div class="metric-value positive">$23.6M</div>
+              <p><strong>Operating Income</strong><br>+18.7% YoY</p>
+            </div>
+            
+            <div class="metric-card fragment fade-up" data-fragment-index="3">
+              <div class="metric-value">18.5%</div>
+              <p><strong>Operating Margin</strong><br>+1.2pp improvement</p>
+            </div>
+            
+            <div class="metric-card fragment fade-up" data-fragment-index="4">
+              <div class="metric-value positive">$1.87</div>
+              <p><strong>EPS</strong><br>+15.4% YoY</p>
+            </div>
+          </div>
+          
+          <div class="financial-highlight fragment" data-fragment-index="5">
+            <h3 style="color: white;">Performance Highlights</h3>
+            <p>Our diversified revenue streams and operational efficiency improvements have delivered 
+            consistent growth while maintaining strong profitability margins.</p>
+          </div>
+          
+          <aside class="notes">
+            Walk through each metric slowly, emphasizing the year-over-year improvements. 
+            The operating margin expansion is particularly noteworthy as it shows our cost 
+            management effectiveness during a challenging economic environment.
+          </aside>
+        </section>
+
+        <!-- Revenue Analysis with Chart -->
+        <section>
+          <h2>Revenue Growth Analysis</h2>
+          
+          <div class="chart-container">
+            <canvas id="revenueChart"></canvas>
+          </div>
+          
+          <div class="fragment">
+            <h3>Growth Drivers:</h3>
+            <ul>
+              <li class="fragment"><strong>Digital Services:</strong> +28% growth in online transactions</li>
+              <li class="fragment"><strong>Investment Products:</strong> +15% in assets under management</li>
+              <li class="fragment"><strong>Corporate Banking:</strong> +8% in lending portfolio</li>
+            </ul>
+          </div>
+          
+          <aside class="notes">
+            The chart shows consistent quarter-over-quarter growth with acceleration in Q3. 
+            Digital services are becoming our primary growth engine, representing 40% of total revenue. 
+            Point out the seasonal patterns and explain the Q3 surge.
+          </aside>
+        </section>
+
+        <!-- Risk Metrics with Mathematical Formulas -->
+        <section>
+          <h2>Risk Assessment & Capital Adequacy</h2>
+          
+          <div class="financial-highlight">
+            <h3 style="color: white;">Value at Risk (VaR) Calculation</h3>
+            <p style="color: #e2e8f0;">Our risk management framework utilizes advanced statistical models:</p>
+          </div>
+          
+          <div class="fragment">
+            <h4>Portfolio VaR (95% confidence level):</h4>
+            <p>$$VaR_{95\%} = \mu - 1.645 \times \sigma \times \sqrt{t}$$</p>
+          </div>
+          
+          <div class="fragment">
+            <h4>Sharpe Ratio for Portfolio Optimization:</h4>
+            <p>$$Sharpe = \frac{R_p - R_f}{\sigma_p}$$</p>
+            <p>Current portfolio Sharpe ratio: <strong>1.34</strong></p>
+          </div>
+          
+          <div class="fragment">
+            <h4>Capital Adequacy Ratio:</h4>
+            <p>$$CAR = \frac{Tier\ 1\ +\ Tier\ 2\ Capital}{Risk\ Weighted\ Assets} = \frac{\$45.2M}{\$312.1M} = 14.5\%$$</p>
+          </div>
+          
+          <aside class="notes">
+            Our CAR of 14.5% is well above regulatory minimums of 8%. The VaR model shows 
+            our 95% confidence daily loss exposure is $2.1M. The Sharpe ratio improvement 
+            indicates better risk-adjusted returns compared to last quarter's 1.18.
+          </aside>
+        </section>
+
+        <!-- Technology Implementation with Code -->
+        <section>
+          <h2>Digital Transformation Progress</h2>
+          
+          <div class="fragment">
+            <h3>API Performance Monitoring</h3>
+            <pre><code class="python" data-line-numbers="1-3|5-8|10-15">
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
+
+# API response time analysis
+api_metrics = pd.read_sql("""
+    SELECT endpoint, avg_response_time, success_rate
+    FROM api_performance WHERE date >= '2025-07-01'
+""", connection)
+
+# Performance improvement calculation
+baseline = api_metrics['avg_response_time'].quantile(0.5)
+current = api_metrics['avg_response_time'].tail(30).mean()
+improvement = ((baseline - current) / baseline) * 100
+
+print(f"API performance improved by {improvement:.1f}%")
+            </code></pre>
+          </div>
+          
+          <div class="fragment">
+            <h4>Key Technical Achievements:</h4>
+            <ul>
+              <li><strong>API Response Time:</strong> Reduced by 34% (avg: 127ms)</li>
+              <li><strong>System Uptime:</strong> 99.97% availability</li>
+              <li><strong>Mobile App Rating:</strong> 4.8/5.0 (App Store)</li>
+            </ul>
+          </div>
+          
+          <aside class="notes">
+            The code sample shows our real-time monitoring approach. We've implemented 
+            comprehensive API performance tracking that has helped us identify and resolve 
+            bottlenecks proactively. The 34% improvement in response times directly correlates 
+            with improved customer satisfaction scores.
+          </aside>
+        </section>
+
+        <!-- Market Position Analysis -->
+        <section>
+          <h2>Competitive Position</h2>
+          
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="flex: 1;">
+              <h3 class="fragment">Market Share Growth</h3>
+              <ul>
+                <li class="fragment">Personal Banking: <strong>15.3%</strong> (+0.8pp)</li>
+                <li class="fragment">Business Lending: <strong>12.1%</strong> (+1.2pp)</li>
+                <li class="fragment">Digital Payments: <strong>8.7%</strong> (+2.1pp)</li>
+              </ul>
+              
+              <div class="fragment financial-highlight" style="margin-top: 30px;">
+                <h4 style="color: white;">Strategic Advantage</h4>
+                <p>Our integrated digital platform provides superior customer experience 
+                while maintaining cost efficiency.</p>
+              </div>
+            </div>
+            
+            <div style="flex: 1; margin-left: 40px;">
+              <div class="chart-container">
+                <canvas id="marketShareChart"></canvas>
+              </div>
+            </div>
+          </div>
+          
+          <aside class="notes">
+            Digital payments showed the strongest growth, reflecting our mobile-first strategy success. 
+            We're gaining market share in all key segments, with particularly strong performance 
+            in the small-to-medium business segment where our digital tools have clear advantages.
+          </aside>
+        </section>
+
+        <!-- Forward Guidance -->
+        <section>
+          <h2>Q4 2025 Outlook & Strategic Priorities</h2>
+          
+          <div class="r-stack">
+            <div class="fragment current-visible">
+              <h3>Revenue Projections</h3>
+              <div class="financial-highlight">
+                <p><strong>Q4 Revenue Forecast:</strong> $135M - $142M</p>
+                <p><strong>Full Year 2025:</strong> $520M - $530M</p>
+                <p><strong>Growth Target:</strong> 14-16% YoY</p>
+              </div>
+            </div>
+            
+            <div class="fragment current-visible">
+              <h3>Strategic Initiatives</h3>
+              <ul>
+                <li><strong>AI Integration:</strong> Deploy ML-driven credit assessment</li>
+                <li><strong>Expansion:</strong> Launch operations in 2 new markets</li>
+                <li><strong>Product Innovation:</strong> Release next-gen investment platform</li>
+                <li><strong>ESG Focus:</strong> Achieve carbon-neutral operations by Q2 2026</li>
+              </ul>
+            </div>
+            
+            <div class="fragment current-visible">
+              <h3>Key Performance Indicators</h3>
+              <div style="display: flex; justify-content: space-around;">
+                <div class="metric-card">
+                  <div class="metric-value">25%</div>
+                  <p>ROE Target</p>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-value">19%</div>
+                  <p>Operating Margin</p>
+                </div>
+                <div class="metric-card">
+                  <div class="metric-value">16%</div>
+                  <p>Revenue Growth</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <aside class="notes">
+            Our Q4 guidance reflects continued momentum with some seasonal adjustments. 
+            The AI integration project is critical for maintaining our competitive edge. 
+            ROE target of 25% represents best-in-class performance for our sector.
+          </aside>
+        </section>
+
+        <!-- Q&A Section -->
+        <section class="center" data-background-gradient="linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+          <h1 style="color: white;">Questions & Discussion</h1>
+          
+          <div style="margin-top: 50px; color: white;">
+            <h3>Contact Information</h3>
+            <p>
+              <strong>Email:</strong> 21f3001705@ds.study.iitm.ac.in<br>
+              <strong>Investor Relations:</strong> Available for follow-up discussions
+            </p>
+          </div>
+          
+          <div style="margin-top: 40px; font-size: 0.9em; color: #e0f7ff;">
+            <p>This presentation contains forward-looking statements. Actual results may differ from projections.</p>
+          </div>
+          
+          <aside class="notes">
+            Open the floor for questions. Be prepared to discuss the digital transformation ROI, 
+            competitive positioning in the fintech space, and regulatory compliance updates. 
+            Emphasize our strong balance sheet position for potential acquisitions.
+          </aside>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- RevealJS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js"></script>
+
+    <script>
+      // Initialize RevealJS
+      Reveal.initialize({
+        width: 1280,
+        height: 720,
+        margin: 0.04,
+        
+        controls: true,
+        progress: true,
+        history: true,
+        center: false,
+        
+        transition: 'slide',
+        transitionSpeed: 'default',
+        
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealNotes,
+          RevealMath.KaTeX
+        ],
+        
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          TeX: {
+            Macros: {
+              RR: "{\\bf R}",
+              bold: ["{\\bf #1}", 1]
+            }
+          }
+        }
+      });
+
+      // Create charts when slides are shown
+      Reveal.addEventListener('slidechanged', function(event) {
+        
+        // Revenue Chart
+        if (event.currentSlide.querySelector('#revenueChart')) {
+          const ctx = document.getElementById('revenueChart').getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: ['Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025', 'Q2 2025', 'Q3 2025'],
+              datasets: [{
+                label: 'Revenue ($M)',
+                data: [98.2, 103.5, 107.1, 115.8, 118.3, 123.7, 127.5],
+                borderColor: '#3182ce',
+                backgroundColor: 'rgba(49, 130, 206, 0.1)',
+                borderWidth: 3,
+                fill: true,
+                tension: 0.4
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                title: {
+                  display: true,
+                  text: 'Quarterly Revenue Growth Trend'
+                },
+                legend: {
+                  display: false
+                }
+              },
+              scales: {
+                y: {
+                  beginAtZero: false,
+                  min: 90,
+                  max: 135
+                }
+              }
+            }
+          });
+        }
+        
+        // Market Share Chart
+        if (event.currentSlide.querySelector('#marketShareChart')) {
+          const ctx2 = document.getElementById('marketShareChart').getContext('2d');
+          new Chart(ctx2, {
+            type: 'doughnut',
+            data: {
+              labels: ['Our Bank', 'Competitor A', 'Competitor B', 'Others'],
+              datasets: [{
+                data: [15.3, 18.7, 12.4, 53.6],
+                backgroundColor: [
+                  '#3182ce',
+                  '#e2e8f0',
+                  '#cbd5e0',
+                  '#f7fafc'
+                ],
+                borderWidth: 2
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                title: {
+                  display: true,
+                  text: 'Personal Banking Market Share'
+                },
+                legend: {
+                  position: 'bottom'
+                }
+              }
+            }
+          });
+        }
+      });
+
+      // Initialize MathJax
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+  </body>
+</html>
